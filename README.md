@@ -1,11 +1,7 @@
-# DummyBankApp Monitoring Project
-
 ## Overview
-
 This project demonstrates deployment and monitoring of a Java-based banking web application using Oracle WebLogic Server, Prometheus, and Grafana.
 
 ## What I Implemented
-
 * Built and deployed a Java web application on Oracle WebLogic Server
 * Configured JMX Exporter to expose JVM metrics
 * Configured Prometheus to collect application and JVM metrics
@@ -14,7 +10,6 @@ This project demonstrates deployment and monitoring of a Java-based banking web 
 * Performed deployment and monitoring setup on Linux
 
 ## Technology Stack
-
 * JSP / Servlets
 * Maven
 * Oracle WebLogic Server
@@ -25,21 +20,34 @@ This project demonstrates deployment and monitoring of a Java-based banking web 
 * Grafana
 
 ## Monitoring Architecture
+DummyBankApp → Oracle WebLogic Server → JMX Exporter → Prometheus → Grafana
 
-DummyBankApp
-→ Oracle WebLogic Server
-→ JMX Exporter
-→ Prometheus
-→ Grafana
+## Screenshots
+
+### DummyBankApp Login Page
+![Login Page](Screenshots/dummybankapp-login-page.png)
+
+### DummyBankApp Dashboard
+![Dashboard](Screenshots/dummybankapp-dashboard.png)
+
+### JMX Exporter — WebLogic Metrics Endpoint
+![JMX Exporter](Screenshots/dummybankapp-jmx-exporter.png)
+
+### Prometheus Targets
+![Prometheus Targets](Screenshots/dummybankapp-prometheus-targets.png)
+
+### Prometheus Dashboard
+![Prometheus Dashboard](Screenshots/dummybankapp-prometheus-dashboard.png)
+
+### Grafana Dashboard
+![Grafana Dashboard](Screenshots/dummybankapp-grafana-dashboard.png)
 
 ## Repository Structure
-
 * DummyBankApp/ - Application source code
 * Monitoring/ - Prometheus and JMX configuration files
 * Screenshots/ - Monitoring and application screenshots
 
 ## Skills Demonstrated
-
 * WebLogic Administration
 * Linux Administration
 * Maven Build Management
@@ -49,9 +57,7 @@ DummyBankApp
 * JVM Monitoring and Troubleshooting
 
 ## Future Enhancements
-
 * Jenkins CI/CD Integration
 * Docker Containerization
 * AWS Deployment
 * Kubernetes Deployment
-
