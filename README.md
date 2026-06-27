@@ -59,5 +59,4 @@ DummyBankApp → Oracle WebLogic Server → JMX Exporter → Prometheus → Graf
 ## Future Enhancements
 * Jenkins CI/CD Integration
 * Docker Containerization
-* AWS Deployment
-* Kubernetes Deployment
+* Add new features
